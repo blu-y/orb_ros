@@ -100,3 +100,12 @@ add_executable (${PROJECT_NAME}_rgbd
 target_link_libraries(${PROJECT_NAME}_rgbd
    ${LIBS}
 )
+
+# test
+add_executable (${PROJECT_NAME}_test
+   src/rgbd_node_.cc
+   src/common.cc
+)
+target_link_libraries(${PROJECT_NAME}_test
+   ${LIBS}
+)
