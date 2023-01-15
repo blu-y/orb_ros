@@ -1,6 +1,6 @@
 <launch>
     <node name="orb_slam3_rbgd" pkg="orb_slam3_ros_wrapper" type="orb_slam3_ros_wrapper_rgbd" output="screen">
-        <!-- for TUM dataset -->
+        <!-- for realsense_ros -->
         <remap from="/camera/rgb/image_raw"                 to="/camera/color/image_raw"/>
         <remap from="/camera/depth_registered/image_raw"    to="/camera/depth/image_rect_raw"/>
 
